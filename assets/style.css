@@ -34,4 +34,12 @@ body{
   float: right;
 }
 
+.section-1{
+  border-width: 5px;
+  width: 70%;
+  border-style: solid;
+  border-image: linear-gradient(-145deg, #000505, #1E1C2D,#3B3355, #4C486B, #5D5D81, #767999, #8E95B1, #A7B1C9, #BFCDE0, #FEFCFD);
+  border-image-slice: 1;
+  border-radius: 5px;
+}
 /* #000505, #1E1C2D,#3B3355, #4C486B, #5D5D81, #767999, #8E95B1, #A7B1C9, #BFCDE0, #FEFCFD, */

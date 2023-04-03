@@ -5,13 +5,13 @@
   --border-radius: 50px;
 }
 
-* {
+*{
   /* background-color: rgb(20, 1, 8); */
   font-family: "Roboto Slab", serif;
+  box-sizing: border-box;
 }
 
 body{
-  background-image: linear-gradient(-145deg, #FEFCFD, #BFCDE0, #A7B1C9, #8E95B1, #767999, #5D5D81, #4C486B, #3B3355, #1E1C2D, #000505);
 }
 
 .navbar {
@@ -35,11 +35,27 @@ body{
 }
 
 .section-1{
+  display: flex;
+}
+
+#p1{
   border-width: 5px;
-  width: 70%;
+  width: 75%;
   border-style: solid;
   border-image: linear-gradient(-145deg, #000505, #1E1C2D,#3B3355, #4C486B, #5D5D81, #767999, #8E95B1, #A7B1C9, #BFCDE0, #FEFCFD);
   border-image-slice: 1;
   border-radius: 5px;
+}
+
+#side-column{
+  border-width: 5px;
+  border-style: solid;
+  margin-right: 20px;
+  width: 25%;
+  height: 100%;
+}
+
+aside{
+  display: block;
 }
 /* #000505, #1E1C2D,#3B3355, #4C486B, #5D5D81, #767999, #8E95B1, #A7B1C9, #BFCDE0, #FEFCFD, */

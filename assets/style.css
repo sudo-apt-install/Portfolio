@@ -5,13 +5,13 @@
   --border-radius: 50px;
 }
 
-*{
+* {
   /* background-color: rgb(20, 1, 8); */
   font-family: "Roboto Slab", serif;
   box-sizing: border-box;
 }
 
-body{
+body {
 }
 
 .navbar {
@@ -19,7 +19,7 @@ body{
   /* border-bottom: 2px solid; border-image: linear-gradient(#000505,#1E1C2D #3B3355, #4C486B, #5D5D81, #767999, #8E95B1, #A7B1C9, #BFCDE0, #FEFCFD); */
   border-bottom: 2px solid black;
   width: 98.5%;
-  
+
   margin-left: 1%;
   padding: 15px 0;
   font-size: 2em;
@@ -34,20 +34,29 @@ body{
   float: right;
 }
 
-.section-1{
-  display: flex;
+.main {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#p1{
+.section-1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 5px solid black;
+  margin-right: 10px;
+}
+
+/* #p1{
   border-width: 5px;
   width: 75%;
   border-style: solid;
   border-image: linear-gradient(-145deg, #000505, #1E1C2D,#3B3355, #4C486B, #5D5D81, #767999, #8E95B1, #A7B1C9, #BFCDE0, #FEFCFD);
   border-image-slice: 1;
   border-radius: 5px;
-}
+} */
 
-#side-column{
+#side-column {
   border-width: 5px;
   border-style: solid;
   margin-right: 20px;
@@ -55,7 +64,21 @@ body{
   height: 100%;
 }
 
-aside{
+aside {
   display: block;
 }
 /* #000505, #1E1C2D,#3B3355, #4C486B, #5D5D81, #767999, #8E95B1, #A7B1C9, #BFCDE0, #FEFCFD, */
+
+.section-1 > h2{
+  flex: 0 0 20%;
+  text-align: right;
+  border-right: 5px solid;
+  padding: 10px;
+}
+.section-1 > div {
+  flex: 0 0 40%;
+}
+
+.section-1 p{
+  margin-bottom: 20px;
+}

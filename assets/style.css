@@ -80,7 +80,7 @@ h2 {
 
 #fig-1 {
   justify-content: center;
-  width: 1500px;
+  width: 80%;
   height: 200px;
   border: 5px solid #55c1ff;
 }
@@ -88,7 +88,7 @@ h2 {
 #fig-2,
 #fig-3 {
   border: 5px solid #55c1ff;
-  width: 745px;
+  width: 30em;
   margin-top: 10px;
   flex-shrink: 2.5;
 }

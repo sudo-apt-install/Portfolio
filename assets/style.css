@@ -48,7 +48,7 @@ body {
   margin-right: 10px;
 }
 
-h2{
+h2 {
   flex: 0 0 20%;
   text-align: right;
   border-right: 5px solid;
@@ -67,9 +67,10 @@ h2{
   padding-bottom: 20px;
   margin-bottom: 20px;
   padding-top: 10px;
+  font-size: larger;
 }
 
-.container{
+.container {
   width: 85%;
   height: auto;
   margin-left: 2%;
@@ -81,20 +82,21 @@ h2{
   justify-content: center;
   width: 1500px;
   height: 200px;
-  border: 5px solid #55C1FF;
+  border: 5px solid #55c1ff;
 }
 
 #fig-2,
-#fig-3{
-  border: 5px solid #55C1FF;
+#fig-3 {
+  border: 5px solid #55c1ff;
   width: 745px;
   margin-top: 10px;
+  flex-shrink: 2.5;
 }
 
-#fig-2{
+#fig-2 {
   margin-right: 5px;
 }
-#fig-3{
+#fig-3 {
   margin-left: 5px;
 }
 
@@ -105,3 +107,13 @@ a:active {
   color: inherit;
 }
 
+.section-3 ul {
+  width: 1500px;
+  font-size: x-large;
+  display: flex;
+  margin-top: 2%;
+  margin-left: 5px;
+  padding-left: 40px;
+  justify-content: space-between;
+  align-items: center;
+}

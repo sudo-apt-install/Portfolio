@@ -40,14 +40,15 @@ body {
 }
 
 .section-1,
-.section-2 {
+.section-2,
+.section-3 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin-right: 10px;
 }
 
-h2 {
+h2{
   flex: 0 0 20%;
   text-align: right;
   border-right: 5px solid;
@@ -55,7 +56,8 @@ h2 {
   font-size: 60px;
 }
 .section-1 > div,
-.section-2 > div {
+.section-2 > div,
+.section-3 > div {
   flex: 0 0 40%;
 }
 
@@ -67,18 +69,33 @@ h2 {
   padding-top: 10px;
 }
 
-.container {
-  display: flex;
-  width: auto;
+.container{
+  width: 85%;
   height: auto;
-  margin: 0 auto;
-  border: 10px solid white;
+  margin-left: 2%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.container #fig-1 {
+#fig-1 {
   justify-content: center;
-  width: 1000px;
-  height: 400px;
+  width: 1500px;
+  height: 200px;
+  border: 5px solid #55C1FF;
+}
+
+#fig-2,
+#fig-3{
+  border: 5px solid #55C1FF;
+  width: 745px;
+  margin-top: 10px;
+}
+
+#fig-2{
+  margin-right: 5px;
+}
+#fig-3{
+  margin-left: 5px;
 }
 
 a,
@@ -87,3 +104,4 @@ a:active {
   text-decoration: none;
   color: inherit;
 }
+

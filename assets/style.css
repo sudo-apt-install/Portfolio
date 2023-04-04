@@ -61,6 +61,7 @@ h2 {
   flex: 0 0 40%;
 }
 
+
 .section-1 p,
 .section-2 p {
   padding-left: 40px;
@@ -80,7 +81,7 @@ h2 {
 
 #fig-1 {
   justify-content: center;
-  width: 80%;
+  width: 1500px;
   height: 200px;
   border: 5px solid #55c1ff;
 }
@@ -88,9 +89,9 @@ h2 {
 #fig-2,
 #fig-3 {
   border: 5px solid #55c1ff;
-  width: 30em;
+  width: 745px;
   margin-top: 10px;
-  flex-shrink: 2.5;
+  flex-shrink: 4;
 }
 
 #fig-2 {
@@ -116,4 +117,34 @@ a:active {
   padding-left: 40px;
   justify-content: space-between;
   align-items: center;
+}
+
+
+@media only screen and (max-width: 1200px){
+  /*Tablets [601px -> 1200px]*/
+  #fig-1 {
+    justify-content: center;
+    width: 1000px;
+    height: 200px;
+    border: 5px solid red;
+  }
+
+  .section-3 ul {
+    width: 900px;
+    font-size: x-large;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    margin-left: 5px;
+    padding-left: 40px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+}
+@media only screen and (max-width: 600px){
+/*Big smartphones [426px -> 600px]*/
+}
+@media only screen and (max-width: 425px){
+/*Small smartphones [325px -> 425px]*/
 }

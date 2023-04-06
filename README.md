@@ -13,6 +13,7 @@ SO THAT I can review samples of their work and assess whether they're a good can
 The following image represents a wireframe of what the final website was to emmulate. I put some personal touches on it to bring it closer to my preferences.
 
 ![Screenshot](https://raw.githubusercontent.com/sudo-apt-install/Portfolio/main/assets/Portfolio%20Reference.png)
+
 #
 
 ## Assets
